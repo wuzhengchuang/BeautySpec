@@ -23,7 +23,7 @@ TODO: 美颜项目宏定义基础模块，通用宏定义都集成到该模块
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BeautyMacroMoudle/Classes/{**/*}'
+  s.source_files = 'BeautyMacroMoudle/Classes/*.{m,h}'
   
   # s.resource_bundles = {
   #   'BeautyMacroMoudle' => ['BeautyMacroMoudle/Assets/*.png']
