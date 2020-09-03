@@ -9,22 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = 'BeautyMacroMoudle'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of BeautyMacroMoudle.'
+  s.summary          = '美颜项目宏定义模块'
 
   s.description      = <<-DESC
-TODO: 美颜项目宏定义模块
+TODO: 美颜项目宏定义基础模块，通用宏定义都集成到该模块
                        DESC
 
   s.homepage         = 'https://github.com/wuzhengchuang/BeautyMacroMoudle'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wuchuang' => '1244775319@qq.com' }
+  s.author           = { '1244775319@qq.com' => '1244775319@qq.com' }
   s.source           = { :git => 'https://github.com/wuzhengchuang/BeautyMacroMoudle.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BeautyMacroMoudle/Classes/**/*'
+  s.source_files = 'BeautyMacroMoudle/Classes/{**/*}'
   
   # s.resource_bundles = {
   #   'BeautyMacroMoudle' => ['BeautyMacroMoudle/Assets/*.png']
